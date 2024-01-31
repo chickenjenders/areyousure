@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>90's Personality Quiz</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="start-section">
+      <h1>Welcome to the 90's Personality Quiz</h1>
+      <p class="intro">Discover your dark side with our mysterious quiz.</p>
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div id="quiz-container" class="hidden quiz-container">
+      <div id="question" class="question"></div>
+      <label class="option">
+        <input type="radio" name="option" value="1" />
+        <span class="option1"></span>
+      </label>
+      <label class="option">
+        <input type="radio" name="option" value="2" />
+        <span class="option2"></span>
+      </label>
+      <label class="option">
+        <input type="radio" name="option" value="3" />
+        <span class="option3"></span>
+      </label>
+      <div class="controls">
+        <button class="next">Next</button>
+      </div>
+    </div>
+    <div id="result" class="result">
+    </div>
+    <script src="questions.js" type="module"></script>
+    <script src="scripts.js" type="module"></script>
+</body>
+
+</html>
