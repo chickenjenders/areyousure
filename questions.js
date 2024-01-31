@@ -1,4 +1,4 @@
-const questions = [
+export const questions = [
   {
     question: "What is your favorite color?",
     answer1: "red/pink/orange",
@@ -63,4 +63,3 @@ const questions = [
     answer3Total: "3",
   },
 ];
-export default "questions.js";
